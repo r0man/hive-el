@@ -1,6 +1,6 @@
 # Hive Mode
 
-Adds Hive to Emacs sql-mode product list.
+Adds Hive to the Emacs sql-mode product list.
 
 ## Installation
 
