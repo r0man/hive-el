@@ -3,7 +3,7 @@
 ;; Copyright (C) 2013 Roman Scherer
 
 ;; Author: Roman Scherer <roman@burningswell.com>
-;; Version: 0.1
+;; Version: 0.1.0
 ;; Package-Requires: ((sql-mode "3.0"))
 ;; Keywords: sql hive
 
