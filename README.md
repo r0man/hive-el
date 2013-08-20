@@ -1,6 +1,7 @@
 # Hive Mode
 
-Adds Hive to the Emacs sql-mode product list.
+Adds Hive to the Emacs sql-mode product list, and provides some convenience
+functionality for using Hive via sql-interactive-mode.
 
 ## Installation
 
