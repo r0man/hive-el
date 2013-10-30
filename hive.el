@@ -56,16 +56,14 @@
   (interactive "P")
   (sql-product-interactive 'hive buffer))
 
-(setq sql-product-alist
-      (cons '(hive
-              :sqli-program sql-hive-program
-              :sqli-options sql-hive-options
-              :sqli-login sql-hive-login-params
-              :sqli-comint-func sql-comint-hive
-              :prompt-regexp "^hive> "
-              :prompt-length 5
-              :prompt-cont-regexp "^    > ")
-            sql-product-alist))
+(sql-add-product 'hive "Hive"
+                 :sqli-program 'sql-hive-program
+                 :sqli-options 'sql-hive-options
+                 :sqli-login 'sql-hive-login-params
+                 :sqli-comint-func 'sql-comint-hive
+                 :prompt-regexp "^hive> "
+                 :prompt-length 5
+                 :prompt-cont-regexp "^    > ")
 
 (provide 'hive)
 
