@@ -52,7 +52,7 @@
 
 ;;;###autoload
 (defun sql-hive (&optional buffer)
-  "Run vsql as an inferior process."
+  "Run hive as an inferior process."
   (interactive "P")
   (sql-product-interactive 'hive buffer))
 
